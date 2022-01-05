@@ -1,0 +1,67 @@
+body{
+    padding-bottom: 100px;
+}
+
+
+p{
+    margin: 0;
+}
+.currency-converter h2{
+    font-size: 22px;
+}
+
+
+
+.form-control:focus{
+    outline: none;
+    box-shadow: none;
+}
+.form-select:focus{
+    outline: none;
+    box-shadow: none;
+} 
+
+.amount {
+    position: relative;
+}
+.amount svg {
+    position: absolute;
+    top: 34px;
+    right: 5px;
+    color: red;
+
+}
+.form-currency {
+    position: relative;
+}
+.form-currency svg {
+    position: absolute;
+    top: 34px;
+    right: 11px;
+    color: red;
+
+}
+.to-currency {
+    position: relative;
+}
+.to-currency svg {
+    position: absolute;
+    top: 34px;
+    right: 11px;
+    color: red;
+
+}
+.error-hide{
+    display: none;
+}
+
+
+
+.marrige-age-check h2 {
+    font-size: 21px;
+}
+
+label#gender {
+    margin: 10px 0 0 0;
+    font-weight: 500;
+}

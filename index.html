@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/fontawesome.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container mt-5">
+        <div class="row pt-5">
+            <div class="col-xl-4">
+                <div class="card">
+                  <div class="card-header">
+                    Age check calculator
+                  </div>
+                  <div class="card-body">
+                    <form action="" class="age-check-form">
+                        <input type="number" class="form-control mb-3" placeholder="Enter birth year">
+                        <input type="submit" class="form-control btn btn-primary" value="Check">
+                    </form>
+                  </div>
+                  <div class="card-footer">
+                      <p class="age-result"> </p>
+                      <p class="age-error"> </p>
+                      <p class="age-status"> </p>
+                  </div>
+                </div>
+            </div>
+            <div class="col-xl-4">
+                <div class="card">
+                    <div class="card-header">
+                        Currency converter
+                    </div>
+                    <div class="card-body">
+                        <form action="" class="currency-converter">
+                            <input type="number" class="form-control mb-3" id="amount" placeholder="Enter amount">
+                            <select name="" id="currency" class="form-select mb-3">
+                                <option value="">Select currency</option>
+                                <option value="86">USD</option>
+                                <option value="116">CAD</option>
+                                <option value="98">POUND</option>
+                                <option value="45">EURO</option>
+                            </select>
+                            
+                            <input type="submit" class="form-control btn btn-primary" value="Convert">
+                        </form>
+                    </div>
+                    <div class="card-footer">
+                        <p class="error-msg"></p>
+                        <p class="resultshow"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4">
+                <div class="card">
+                    <div class="card-header">
+                         Marrige age check
+                    </div>
+                    <div class="card-body">
+                        <form action="" class="marriage-check-form">
+                            <input type="number" class="form-control mb-3" id="input-age" placeholder="Enter your age">
+                            <label class="d-block">Gender:</label>
+                            <input type="radio" name="gender" value="Male" >Male
+                            <input type="radio" name="gender" value="Female" class="ml-2">Female
+                            
+                            <input type="submit" class="form-control btn btn-primary mt-2" value="Check status">
+                        </form>
+                    </div>
+                    <div class="card-footer">
+                        <p id="gender-check"></p>
+                        <p id="error-msg"></p>
+                        <p id="resultshow"></p>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+    <script src="./functions.js"></script>
+    <script src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.js"></script>
+    <script src="./assets/js/all.min.js"></script>
+    <script src="./app.js"></script>
+    
+
+
+    </script>
+</body>
+</html>
